@@ -94,6 +94,7 @@ const surveyJson = {
         {
           name: 'Explanation',
           title: 'If no please explain',
+          visibleIf: "{ValuedAtWork}='No'",
           type: 'comment',
         },
         {
